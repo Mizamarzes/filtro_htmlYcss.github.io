@@ -1,6 +1,5 @@
 @import url(navBar.css);
 
-#todos_productos{
+#pantalones{
     flex-direction: column;
 }
-
