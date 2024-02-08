@@ -70,6 +70,22 @@ section{
     transition: all 500ms ease;
 }
 
+#nav-list li a strong{
+    margin-left: 20px   ;
+    border: 1px solid var(--color-especial);
+    padding: 10px;
+}
+
+.bxs-t-shirt{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.bx-cart-download{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
 #nav-list li a:hover{
     border-left: 5px solid #c7c7c7;
     background-color: var(--color-hover);
@@ -97,6 +113,9 @@ section{
     padding: 10px;
     text-align: center;
     line-height: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .caja img{
@@ -109,4 +128,21 @@ section{
 .caja:hover img{
     transform: translateY(-.90rem);
 }
+
+.caja-texto{
+    line-height: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: var(--color-especial);
+}
+
+.caja-texto button{
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.caja-texto button:hover{
+    background-color: var(--color-hover);
+}
+
 

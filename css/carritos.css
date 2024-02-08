@@ -26,8 +26,31 @@
     justify-content: center;
 }
 
+.item img{
+    width: 100%;
+    height: 50%;
+    transition: transform .4s;
+    border-radius: 1rem;
+}
+
+.item img:hover{
+    transform: translateY(-.90rem);
+}
+
 .item div{
     margin: 20px;
+    background-color: var(--color-especial);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.item div p{
+    margin-top: 10px;
+}
+.item div input{
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
 }
 
 .item img{
