@@ -3,3 +3,7 @@
 #abrigos{
     flex-direction: column;
 }
+
+#abrigos h1{
+    margin-right: 50px;
+}
