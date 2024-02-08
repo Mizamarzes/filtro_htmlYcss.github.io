@@ -1,7 +1,8 @@
-@import url(navBar.css);
+@import url(utils.css);
 
 #carrito{
     flex-direction: column;
+    overflow-y: scroll;
 }
 
 .carrito-products{
@@ -43,12 +44,11 @@
     display: none;
 }
 
-#vaciarCarritoCheckbox:checked ~ .carrito-products .item,
-#vaciarCarritoCheckbox:checked ~ .carrito-products #vaciarCarritoLabel {
+#vaciarCarritoCheckbox:checked ~ .contenedor-items .item{
     display: none;
 }
 
-#vaciarCarritoCheckbox:checked ~ .carrito-products #message-vacio{
+#vaciarCarritoCheckbox:checked ~ #message-vacio {
     display: block;
 }
 

@@ -1,9 +1,5 @@
-@import url(navBar.css);
+@import url(utils.css);
 
 #abrigos{
     flex-direction: column;
-}
-
-#abrigos h1{
-    margin-right: 50px;
 }

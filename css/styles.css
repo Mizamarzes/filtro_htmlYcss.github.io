@@ -1,4 +1,4 @@
-@import url(navBar.css);
+@import url(utils.css);
 
 #todos_productos{
     flex-direction: column;

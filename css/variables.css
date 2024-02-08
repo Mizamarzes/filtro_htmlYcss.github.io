@@ -1,0 +1,17 @@
+:root{
+    --color-background:#e2e3d9;
+    --color-primary: #121310;
+
+    --color-h1:black;
+    --color-h2:black;
+    --color-p:black;
+
+    --color-especial:#c7c7c7;
+    --color-hover: #d6e68a;
+
+    --color-header:#95aa61; 
+    
+    --font-size-p:20px;
+    --font-size-h1:50px;
+}
+
