@@ -37,6 +37,8 @@ section{
     top: 0;
     padding: 30px 20px;
     transition: all 500ms ease;
+    display: flex;
+    justify-content: center;
 }
 
 #header nav{
@@ -90,6 +92,20 @@ section{
     border-left: 5px solid #c7c7c7;
     background-color: var(--color-hover);
     color: var(--color-h1);
+}
+
+#header nav img{
+    width: 200px;
+    height: 200px;
+}
+
+#header nav h2{
+    color: var(--color-header);
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#header nav h2:hover{
+    cursor: pointer;
 }
 
 /*--------------------- DISEÑO DE ZONA DE PRODUCTOS ------------------------------------ */

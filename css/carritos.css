@@ -78,6 +78,17 @@
     display: none;
 }
 
+#vaciarCarritoCheckbox{
+    width: 30px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+#vaciarCarritoLabel{
+    font-size: 30px;
+}
+
+
 #vaciarCarritoCheckbox:checked ~ .contenedor-items .item,
 #vaciarCarritoCheckbox:checked ~ .contenedor-items #total-pagar{
     display: none;
