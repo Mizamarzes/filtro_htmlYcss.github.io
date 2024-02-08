@@ -40,6 +40,17 @@
     font-size: 140px;
 }
 
+.item i > a{
+    background-color: black;
+    color: blue; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+.item i > a:hover{
+    color: darkblue; 
+}
+
 #message-vacio{
     display: none;
 }
