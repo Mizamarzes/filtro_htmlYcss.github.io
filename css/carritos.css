@@ -44,13 +44,35 @@
     display: none;
 }
 
-#vaciarCarritoCheckbox:checked ~ .contenedor-items .item{
+#vaciarCarritoCheckbox:checked ~ .contenedor-items .item,
+#vaciarCarritoCheckbox:checked ~ .contenedor-items #total-pagar{
     display: none;
 }
 
 #vaciarCarritoCheckbox:checked ~ #message-vacio {
     display: block;
 }
+
+#total-pagar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--color-especial);
+}
+
+#total-pagar div{
+    margin-right: 20px;
+}
+
+#total-pagar button{
+    border-radius: 10px;
+    font-size: 20px;
+}
+
 
 
 
